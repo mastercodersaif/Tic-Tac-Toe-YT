@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(61, 219, 61);
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  margin-top: 15vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#tic-tac-toe {
+  border-collapse: collapse;
+  width: 300px;
+  height: 300px;
+}
+
+#tic-tac-toe td {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border: 3px solid green;
+  position: relative;
+}
+
+#tic-tac-toe td:hover {
+  background-color: rgb(64, 230, 64);
+}
+
+.move-icon {
+  width: 80%;
+  user-select: none;
+}
+
+#turn {
+  margin-top: 5vh;
+  font-size: 1.1rem;
+  padding: 20px 25px;
+}
